@@ -8,18 +8,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
-        </li>
+        {% include navbar/nav-item.html link="/" title="Home" %}
+        {% include navbar/nav-item.html link="/about" title="About" %}
+        {% include navbar/nav-item.html link="/posts/" title="Posts" %}
+        {% include navbar/nav-item.html link="/contact" title="Contact" %}
       </ul>
     </div>
   </div>

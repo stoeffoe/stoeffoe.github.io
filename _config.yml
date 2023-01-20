@@ -4,6 +4,7 @@ description:        hi
 author:             Stefan Beenen
 baseurl:            ""
 url:                "stefanbeenen.nl"
+permalink:          /kb/:title
 
 # Social Profiles
 twitter_username:
