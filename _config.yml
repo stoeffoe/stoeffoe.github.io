@@ -1,16 +1,16 @@
-title:              S Beenen
-email:              
-description:        The start of another personal website :)
-author:             S Beenen
+title:              Stefan Beenen
+email:              stefan.beenen@hotmail.com
+description:        hi
+author:             Stefan Beenen
 baseurl:            ""
-url:                "https://stoeffoe.github.io"
+url:                "stefanbeenen.nl"
 
 # Social Profiles
 twitter_username:
-github_username:
+github_username: stoeffoe
 facebook_username:
 instagram_username:
-linkedin_username:
+linkedin_username: stefanbeenen
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
